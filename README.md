@@ -46,7 +46,24 @@ Engineering focus: workspace authorization with RLS, signed artifact URLs, valid
 
 </details>
 
-**Demo availability, checked October 20, 2026:** GeoWatch remained on Render's startup screen during this audit; ReleaseCanvas returned `503 DEPLOYMENT_PAUSED`. GeoWatch’s screenshot is from its earlier deployment verification; ReleaseCanvas’s is a fresh local demo capture. Both repositories include local setup instructions; hosted availability is not guaranteed.
+### [Scoofi Apply](https://github.com/Scofari/scoofi-apply)
+
+A local-first workspace for matching jobs, preparing supported application forms, and reviewing answers before submission.
+
+**Next.js · TypeScript · Node.js · SQLite · Playwright · Zod**
+
+Engineering focus: typed ATS adapters, deterministic matching, auditable application state, owner authentication, and conservative automation defaults. The verified offline suite contains 1,172 passing tests; live-provider behavior remains unverified. Public source and screenshots exclude private applicant data and credentials.
+
+[Source and setup](https://github.com/Scofari/scoofi-apply#install-and-configure) · [Architecture](https://github.com/Scofari/scoofi-apply#architecture) · [Verification scope](https://github.com/Scofari/scoofi-apply/blob/main/PUBLISHING_REVIEW.md)
+
+<details>
+<summary>View Scoofi Apply with fictional demo jobs</summary>
+
+![Scoofi Apply discovery page with fictional jobs](https://raw.githubusercontent.com/Scofari/scoofi-apply/main/docs/screenshots/discovery-desktop.jpg)
+
+</details>
+
+**Demo availability, checked October 20, 2026:** GeoWatch remained on Render's startup screen during this audit; ReleaseCanvas returned `503 DEPLOYMENT_PAUSED`. GeoWatch’s screenshot is from its earlier deployment verification; ReleaseCanvas’s is a fresh local demo capture. Scoofi Apply runs locally and has no hosted demo. The repositories include local setup instructions.
 
 ## Open source
 
@@ -69,7 +86,7 @@ Two proposed fixes to **Cal.diy** (both **open and unmerged**, checked October 2
 
 ## Current interests
 
-Full-stack product development, backend architecture, AI-powered tools, and open-source contributions. I am also developing **Scoofi Apply**, a private local-first application workspace; its source and applicant data are not published.
+Full-stack product development, backend architecture, AI-powered tools, and open-source contributions.
 
 ## 🌍 Open to Remote & Dubai Opportunities
 
