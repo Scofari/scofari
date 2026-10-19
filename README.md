@@ -22,7 +22,12 @@ Engineering focus: indexed spatial queries, transactional report confirmations, 
 
 [Source and setup](https://github.com/Scofari/moldova-geowatch#local-development) · [Hosted demo](https://moldova-geowatch.onrender.com/) · [Architecture](https://github.com/Scofari/moldova-geowatch#architecture)
 
+<details>
+<summary>View GeoWatch application screenshot</summary>
+
 ![Moldova GeoWatch dashboard, captured during the October 5 deployment verification](https://raw.githubusercontent.com/Scofari/moldova-geowatch/main/docs/screenshots/public-desktop.jpg)
+
+</details>
 
 ### [ReleaseCanvas](https://github.com/Scofari/release-canvas)
 
@@ -34,7 +39,12 @@ Engineering focus: workspace authorization with RLS, signed artifact URLs, valid
 
 [Source and setup](https://github.com/Scofari/release-canvas#local-development) · [Hosted demo](https://release-canvas.vercel.app/demo) · [Security model](https://github.com/Scofari/release-canvas/blob/main/docs/SECURITY.md)
 
+<details>
+<summary>View ReleaseCanvas application screenshot</summary>
+
 ![ReleaseCanvas interactive portfolio demo with fictional review data](https://raw.githubusercontent.com/Scofari/release-canvas/main/docs/screenshots/review-desktop-2026-10-20.jpg)
+
+</details>
 
 **Demo availability, checked October 20, 2026:** GeoWatch remained on Render's startup screen during this audit; ReleaseCanvas returned `503 DEPLOYMENT_PAUSED`. GeoWatch’s screenshot is from its earlier deployment verification; ReleaseCanvas’s is a fresh local demo capture. Both repositories include local setup instructions; hosted availability is not guaranteed.
 
